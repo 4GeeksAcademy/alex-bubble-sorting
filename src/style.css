@@ -3,3 +3,22 @@
 body{
     background: white;
 }
+
+.card {
+    width: 400px;
+    min-height: 80vh;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 25px;
+}
+
+.numberSection {
+    font-size: 10em;
+}
+
+.suite {
+max-width: 90px;
+}
+
+.suite-bottom {
+    transform: rotate(180deg);
+}

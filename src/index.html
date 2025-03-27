@@ -13,19 +13,21 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container-fluid text-center d-flex justify-content-center align-items-center">
+      <div class="card mt-5 d-flex flex-column justify-content-between">
+        <div class="row ">
+          <div class="col-12 suite-top d-flex justify-content-start p-4"><img src="assets/img/spades.png" class="suite" alt="suite-top" id="suite-top"></div>
+        </div>
+        <div class="row">
+          <div class=" col-12 numberSection d-flex justify-content-center" id="numberElement">A</div>
+        </div>
+        <div class="row">
+          <div class="col-12 suite-bottom d-flex justify-content-start p-4"><img src="assets/img/spades.png" class="suite"  alt="suite-bottom" id="suite-bottom"></div>
+        </div>
       </div>
     </div>
 
