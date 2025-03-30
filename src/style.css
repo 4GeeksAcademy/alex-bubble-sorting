@@ -5,20 +5,25 @@ body{
 }
 
 .card {
-    width: 400px;
-    min-height: 80vh;
+    width: 50px;
+    height: 75px;
     box-shadow: 5px 5px 10px gray;
-    border-radius: 25px;
+    border-radius: 5px;
+    margin: 0 5px
 }
 
-.numberSection {
-    font-size: 10em;
-}
+
 
 .suite {
-max-width: 90px;
+max-width: 20%;
+margin: 3px;
 }
 
 .suite-bottom {
     transform: rotate(180deg);
+}
+
+button{
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    border-radius: 3px;
 }

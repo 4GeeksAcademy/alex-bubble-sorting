@@ -1,37 +1,40 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="./assets/img/4geeks.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
 
-    <!-- Fontawesome is our recomended library for icons -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center d-flex justify-content-center align-items-center">
-      <div class="card mt-5 d-flex flex-column justify-content-between">
-        <div class="row ">
-          <div class="col-12 suite-top d-flex justify-content-start p-4"><img src="assets/img/spades.png" class="suite" alt="suite-top" id="suite-top"></div>
-        </div>
-        <div class="row">
-          <div class=" col-12 numberSection d-flex justify-content-center" id="numberElement">A</div>
-        </div>
-        <div class="row">
-          <div class="col-12 suite-bottom d-flex justify-content-start p-4"><img src="assets/img/spades.png" class="suite"  alt="suite-bottom" id="suite-bottom"></div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./assets/img/4geeks.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello Rigo with Vanilla.js</title>
+
+  <!-- Fontawesome is our recomended library for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Write your HTML code here, you can delete everything withing the body tags -->
+  <div class="container-fluid">
+    <div class="row user-input p-3">
+      <div class="col">
+        <form id="user-input-form">
+          <label for="array-number">Original:</label>
+          <input type="number" name="array-number" id="array-number">
+          <button id="btn-draw">Draw</button>
+          <button id="btn-sort">Sort</button>
+        </form>
       </div>
     </div>
+    <div class="row">
+      <div class="col d-flex" id="resulting-array">
+        
+      </div>
+    </div>
+     </div>
 
-    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
-    <script type="module" src="/app.js"></script>
-  </body>
+  <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
+  <script type="module" src="/app.js"></script>
+</body>
+
 </html>
