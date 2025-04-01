@@ -14,26 +14,26 @@
 </head>
 
 <body>
-  <!-- Write your HTML code here, you can delete everything withing the body tags -->
   <div class="container-fluid">
     <div class="row user-input p-3">
       <div class="col">
         <form id="user-input-form">
           <label for="array-number">Original:</label>
           <input type="number" name="array-number" id="array-number">
-          <button id="btn-draw">Draw</button>
-          <button id="btn-sort">Sort</button>
+          <button type="button" id="btn-draw">Draw</button>
+          <button type="button" id="btn-sort">Sort</button>
         </form>
       </div>
     </div>
     <div class="row">
       <div class="col d-flex" id="resulting-array">
-        
       </div>
     </div>
-     </div>
+    <div class="row">
+      <div class="col d-flex flex-column" id="iterations-section"></div>
+      </div>
+  </div>
 
-  <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
   <script type="module" src="/app.js"></script>
 </body>
 
